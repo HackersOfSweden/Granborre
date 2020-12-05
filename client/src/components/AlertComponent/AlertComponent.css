@@ -1,14 +1,15 @@
 .alert-danger {
-    bottom: 406px;
+    bottom: 420px;
     position: relative;
     background-color: #F8F8F8;
-    width: 375px;
+    width: 376px;
     min-height: 60px;
     padding: 20px 0px;
+    left:-1px
 }
 
 .alertMessage {
-    width: 80%;
+    width: 65%;
 }
 
 .errorHeader {

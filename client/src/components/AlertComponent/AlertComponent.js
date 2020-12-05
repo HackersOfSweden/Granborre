@@ -33,7 +33,7 @@ function AlertComponent(props) {
         <span aria-hidden="true">&times;</span>
       </button>
       <div className="d-flex alertMessage">
-        <p className="errorHeader">Error</p>
+        <p className="errorHeader">Felmeddelande</p>
         <span className="errorMessage">{props.errorMessage}</span>
       </div>
     </div>

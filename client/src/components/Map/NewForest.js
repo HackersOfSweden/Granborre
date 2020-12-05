@@ -41,15 +41,15 @@ function NewForest(props) {
           console.log("Log in successful")
           props.showError(null);
         } else if (response.status === 204) {
-          props.showError("Invalid email/password");
+          props.showError("Fel email/lösenord");
         } else {
-          props.showError("Invalid email/password");
+          props.showError("Fel email/lösenord");
         }
       })
       .catch(function (error) {
         console.log(error.response);
         if (error.response.data.message === "error") {
-          props.showError("Invalid email/password. Please try again");
+          props.showError("Fel email/lösenord. Försök igen.");
         }
       });
   };
