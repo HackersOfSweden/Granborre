@@ -29,7 +29,7 @@ const WebMapView = (props) => {
         })
         .catch(function (error) {
           if (error) {
-            props.showError("Failed to fetch coordinates");
+            props.showError("Kunde inte hämta koordinatater");
           }
         });
   }
